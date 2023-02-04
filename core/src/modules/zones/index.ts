@@ -1,4 +1,3 @@
-
 import { GetCountryTime, GetCountryTimezone } from "./usage"
 
 async function main() {
