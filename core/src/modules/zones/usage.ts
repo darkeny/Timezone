@@ -8,7 +8,9 @@ export class GetCountryTime {
 }
 
 export class GetCountryTimezone {
-
+    async run(code: string): Promise<Timezones> {
+        return Timezones.of(code)
+    }
 }
 
 export class GetCountryOffset {

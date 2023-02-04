@@ -2,5 +2,11 @@
   "name": "src",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "sucrase-node modules/zones/index.ts"
+  },
+  "devDependencies": {
+    "sucrase": "^3.29.0"
+  }
 }
