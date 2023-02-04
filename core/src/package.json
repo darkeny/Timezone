@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "sucrase-node modules/zones/index.ts"
+    "build": "tsup modules/zones/index.ts",
+    "dev": "sucrase-node modules/zones/index.ts",
+    "test": "tsx watch modules/zones/index.ts"
   },
   "devDependencies": {
-    "sucrase": "^3.29.0"
+    "sucrase": "^3.29.0",
+    "tsup": "^6.5.0",
+    "tsx": "^3.12.2"
   }
 }
