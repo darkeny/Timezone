@@ -1,4 +1,4 @@
-import { GetCountryTime, GetCountryTimezone } from "./usage"
+import { GetCountryTime, GetCountryTimezone } from "./src/modules/zones/usage"
 
 async function main() {
     const getCountryTime = await new GetCountryTime().run("mz")
